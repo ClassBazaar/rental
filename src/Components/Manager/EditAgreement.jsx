@@ -138,7 +138,7 @@ function EditAgreement({ history }) {
           property_pic,
           type,
           status
-        } = response.data;
+        } = response.data.agreement;
 
         // const oldAgreements = await get_old_agreement(code)
 
